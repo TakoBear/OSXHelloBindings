@@ -11,13 +11,16 @@
 		09F22719190BDDFA00DB2B41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09F22717190BDDFA00DB2B41 /* InfoPlist.strings */; };
 		09F2271B190BDDFA00DB2B41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2271A190BDDFA00DB2B41 /* main.m */; };
 		09F2271F190BDDFA00DB2B41 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 09F2271D190BDDFA00DB2B41 /* Credits.rtf */; };
-		09F22722190BDDFA00DB2B41 /* bearAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F22721190BDDFA00DB2B41 /* bearAppDelegate.m */; };
 		09F22725190BDDFA00DB2B41 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09F22723190BDDFA00DB2B41 /* MainMenu.xib */; };
 		09F22727190BDDFA00DB2B41 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F22726190BDDFA00DB2B41 /* Images.xcassets */; };
 		09F2272E190BDDFA00DB2B41 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F2272D190BDDFA00DB2B41 /* XCTest.framework */; };
 		09F2272F190BDDFA00DB2B41 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F2270E190BDDFA00DB2B41 /* Cocoa.framework */; };
 		09F22737190BDDFA00DB2B41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09F22735190BDDFA00DB2B41 /* InfoPlist.strings */; };
 		09F22739190BDDFA00DB2B41 /* HelloBindingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F22738190BDDFA00DB2B41 /* HelloBindingsTests.m */; };
+		09F22749190BDE2400DB2B41 /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F22743190BDE2400DB2B41 /* BackgroundView.m */; };
+		09F2274A190BDE2400DB2B41 /* bearAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F22745190BDE2400DB2B41 /* bearAppDelegate.m */; };
+		09F2274B190BDE2400DB2B41 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F22747190BDE2400DB2B41 /* MainWindowController.m */; };
+		09F22751190BDEA100DB2B41 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09F22750190BDEA100DB2B41 /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +44,6 @@
 		09F2271A190BDDFA00DB2B41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09F2271C190BDDFA00DB2B41 /* HelloBindings-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloBindings-Prefix.pch"; sourceTree = "<group>"; };
 		09F2271E190BDDFA00DB2B41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		09F22720190BDDFA00DB2B41 /* bearAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bearAppDelegate.h; sourceTree = "<group>"; };
-		09F22721190BDDFA00DB2B41 /* bearAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bearAppDelegate.m; sourceTree = "<group>"; };
 		09F22724190BDDFA00DB2B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		09F22726190BDDFA00DB2B41 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		09F2272C190BDDFA00DB2B41 /* HelloBindingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloBindingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +51,13 @@
 		09F22734190BDDFA00DB2B41 /* HelloBindingsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloBindingsTests-Info.plist"; sourceTree = "<group>"; };
 		09F22736190BDDFA00DB2B41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09F22738190BDDFA00DB2B41 /* HelloBindingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloBindingsTests.m; sourceTree = "<group>"; };
+		09F22742190BDE2400DB2B41 /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
+		09F22743190BDE2400DB2B41 /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
+		09F22744190BDE2400DB2B41 /* bearAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bearAppDelegate.h; sourceTree = "<group>"; };
+		09F22745190BDE2400DB2B41 /* bearAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bearAppDelegate.m; sourceTree = "<group>"; };
+		09F22746190BDE2400DB2B41 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		09F22747190BDE2400DB2B41 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		09F22750190BDEA100DB2B41 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +123,11 @@
 		09F22714190BDDFA00DB2B41 /* HelloBindings */ = {
 			isa = PBXGroup;
 			children = (
-				09F22720190BDDFA00DB2B41 /* bearAppDelegate.h */,
-				09F22721190BDDFA00DB2B41 /* bearAppDelegate.m */,
-				09F22723190BDDFA00DB2B41 /* MainMenu.xib */,
+				09F2274D190BDE2700DB2B41 /* Views */,
+				09F2274F190BDE3C00DB2B41 /* Controllers */,
+				09F2274E190BDE3100DB2B41 /* Resources */,
+				09F22744190BDE2400DB2B41 /* bearAppDelegate.h */,
+				09F22745190BDE2400DB2B41 /* bearAppDelegate.m */,
 				09F22726190BDDFA00DB2B41 /* Images.xcassets */,
 				09F22715190BDDFA00DB2B41 /* Supporting Files */,
 			);
@@ -152,6 +162,33 @@
 				09F22735190BDDFA00DB2B41 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09F2274D190BDE2700DB2B41 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09F22742190BDE2400DB2B41 /* BackgroundView.h */,
+				09F22743190BDE2400DB2B41 /* BackgroundView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		09F2274E190BDE3100DB2B41 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				09F22750190BDEA100DB2B41 /* MainWindowController.xib */,
+				09F22723190BDDFA00DB2B41 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		09F2274F190BDE3C00DB2B41 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				09F22746190BDE2400DB2B41 /* MainWindowController.h */,
+				09F22747190BDE2400DB2B41 /* MainWindowController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +272,7 @@
 				09F22727190BDDFA00DB2B41 /* Images.xcassets in Resources */,
 				09F2271F190BDDFA00DB2B41 /* Credits.rtf in Resources */,
 				09F22725190BDDFA00DB2B41 /* MainMenu.xib in Resources */,
+				09F22751190BDEA100DB2B41 /* MainWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09F22722190BDDFA00DB2B41 /* bearAppDelegate.m in Sources */,
+				09F22749190BDE2400DB2B41 /* BackgroundView.m in Sources */,
+				09F2274A190BDE2400DB2B41 /* bearAppDelegate.m in Sources */,
+				09F2274B190BDE2400DB2B41 /* MainWindowController.m in Sources */,
 				09F2271B190BDDFA00DB2B41 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

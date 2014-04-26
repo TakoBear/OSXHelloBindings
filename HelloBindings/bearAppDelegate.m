@@ -1,18 +1,30 @@
 //
 //  bearAppDelegate.m
-//  HelloBindings
+//  HelloDrawRect
 //
-//  Created by Bear on 2014/4/26.
+//  Created by Bear on 2014/4/13.
 //  Copyright (c) 2014年 TakoBear. All rights reserved.
 //
 
 #import "bearAppDelegate.h"
+#import "MainWindowController.h"
 
 @implementation bearAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    [self.mainWindowController showWindow:self];
 }
 
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {
+    return YES;
+}
+
+- (MainWindowController *)mainWindowController
+{
+    if (_mainWindowController == nil) {
+        _mainWindowController = [[MainWindowController alloc] initWithWindowNibName:@"MainWindowController"];
+    }
+    return _mainWindowController;
+}
 @end
